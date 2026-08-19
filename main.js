@@ -12,4 +12,43 @@ function diminuiTamanho() {
     }
     numerosenha.textocontet = tamanhosenha;
 }
+
+function aumentaTamanho() {
+    if (tamanhosenha < 20) {
+        tamanhosenha = tamanhosenha+1;
+        }
+        numerosenha.textocontet = tamanhosenha;
+        geraSenha();
+        }
+        const campoSenha = document.querySelector('#campo-senha');
+        const che
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function geraSenha(){
+    let senha =´';
+    if(checkbox[0].checkede) { 
+        alfabeto = alfabeto + letrasMaiusculas;
+    }
+    if(checkbox[1].checked) {
+        alfabeto = alfabeto + letrasMaiusculas;
+    }
+    if (checkbox[2].checked)
+
         
